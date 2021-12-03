@@ -1,8 +1,8 @@
 {
     "Hidden":       [],
-    "Favorites":    ["Users/rehanahmed/Downloads","Users/rehanahmed/Documents"],
-    "Password":     "",
-    "rootDir":   ""
+    "Favorites":    ["/opt/data/Reisefotos-2021"],
+    "Password":     "2021Mola#",
+    "rootDir":   "/opt/data/Reisefotos-2021"
 
     
 }

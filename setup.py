@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from flask import Flask, render_template, request, send_file, redirect, session,jsonify
 import os
 import sys
@@ -593,4 +596,4 @@ def qrFile(var):
 
 
 if __name__ == '__main__':
-    app.run(host= '0.0.0.0',debug=True,port=80)
+    app.run(host= '0.0.0.0',debug=True,port=8081, ssl_context=('cert.pem','key.pem'))
